@@ -79,6 +79,8 @@ Codex `0.163.0`, Gemini CLI `0.65.0`의 도움말과 공식 소스 문서를 확
 
 ## Windows PowerShell
 
+Windows 실행 파일은 ASCII와 CRLF 줄바꿈으로 저장하며 `.gitattributes`에서 해당 바이트를 보존해 GitHub ZIP에도 동일하게 포함합니다. 이전 ZIP의 실행 창에서 깨진 글자나 ‘내부 또는 외부 명령’ 오류가 나오면, 앱 폴더에서 PowerShell을 열어 `node .\scripts\start-tailscale.mjs`를 실행하세요. 기존 다운로드를 그대로 사용할 수 있습니다.
+
 ```powershell
 Set-Location C:\path\to\novel_machine
 node --version

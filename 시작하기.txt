@@ -5,6 +5,8 @@
 
 2. 이 폴더를 PC에 압축 해제합니다.
    Windows: start-tailscale.cmd를 더블클릭합니다.
+   실행 창에 깨진 글자나 '내부 또는 외부 명령' 오류가 나오면,
+   이 폴더에서 PowerShell을 열어 node .\scripts\start-tailscale.mjs를 실행합니다.
    Mac/Linux: 이 폴더에서 터미널로 node scripts/start-tailscale.mjs를 실행합니다.
 
 3. 첫 실행에는 패키지 설치와 화면 빌드를 자동으로 진행합니다.

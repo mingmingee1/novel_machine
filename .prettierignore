@@ -4,3 +4,4 @@ data
 test-results
 docs/SPEC.ko.md
 public/icon.svg
+*.cmd
