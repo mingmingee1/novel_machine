@@ -1,0 +1,6 @@
+node_modules
+dist
+data
+test-results
+docs/SPEC.ko.md
+public/icon.svg

@@ -1,0 +1,17 @@
+{
+  "name": "여백 — 개인 소설 작업실",
+  "short_name": "여백",
+  "lang": "ko",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f5f3ed",
+  "theme_color": "#f5f3ed",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
